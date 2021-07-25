@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+  }
+body{
+    background: rgb(14, 11, 11);
+    
+}
+.wrapper{
+    display :flex;
+    position: relative;
+    
+}
+.wrapper .app{
+    width: 200px;
+  height: 100%;
+  position: absolute;
+  left : 2%;
+  top : 2%;
+  padding: 15px 0px;
+  position: fixed;
+
+}
+.wrapper .app ul li{
+    padding:  15px;
+    width : 100%;
+
+  
+}
+.wrapper .app ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.wrapper .app ul li a .fas{
+    width: 40px;
+  }
+  .wrapper .app ul li a .far{
+    width: 40px;
+  }
+.wrapper .app ul li:hover{
+    background-color: grey;
+  }
+.dinner{
+    position: absolute;
+width: 370px;
+height: 359px;
+left: 0px;
+top: 482px;
+
+background: url(dinner.jpg);
+}
+h2{
+  color : pink;
+  font-size: 33px;
+  font-style: oblique;
+}

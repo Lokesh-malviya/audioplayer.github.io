@@ -1,0 +1,18 @@
+body{
+    background: #5C5A5A;
+}
+h2{
+    position: absolute;
+width: 600px;
+height: 221px;
+left: 33%;
+top: 20%;
+
+font-family:monospace;
+font-style: italic;
+font-weight: bold;
+font-size: 144px;
+line-height: 169px;
+color : rgb(243, 159, 218);
+
+}

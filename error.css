@@ -1,0 +1,22 @@
+body{
+    
+    background-color: black;
+}
+.back{position: absolute;
+    width: 420px;
+    height: 400px;
+    left: 30%;
+    top: 20%;
+    
+   
+}
+h2{
+    color: aliceblue;
+    position: absolute;
+    width: 420px;
+    height: 100px;
+    left: 33%;
+    top: 75%;
+    font-family: monospace;
+    font-size: 30px;
+}
